@@ -15,12 +15,12 @@ body {
   background-attachment: fixed;font-family: "Sono", sans-serif
 }
 
-h1, h2 {
-  color: white;
-}
-
 p {
   all: unset;
+}
+
+h1, h2, p {
+  color: white;
 }
 
 .nav-container {
@@ -42,7 +42,7 @@ p {
   margin-top: -2px;
   margin-bottom: -2px;
   margin-left: 22px;
-  height: 200px;
+  height: 100px;
   width: 4px;
   background-color: #fff;
 }
@@ -53,4 +53,17 @@ p {
   left: 14px;
   color: rgb(21, 71, 58);
   font-size: 32px;
+}
+
+.node-letter:hover > .content-container {
+  border-top: #fff 2px solid;
+  border-right: #fff 2px solid;
+}
+
+.content-container {
+  /* border-top: #fff 2px solid;
+  border-right: #fff 2px solid; */
+  margin-top: 40px;
+  margin-left: 240px;
+  margin-right: 160px;
 }

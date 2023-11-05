@@ -2,7 +2,7 @@ import React from 'react';
 
 const NodeLine = () => {
   return (
-    <div class="node-line">
+    <div className="node-line">
       
     </div>
   );

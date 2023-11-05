@@ -3,13 +3,26 @@ import NavNode from './NavNode';
 import NodeLine from './NodeLine';
 
 const Nav = () => {
-    const nodes = ["About", "Contact"];
+    const nodes = ["About", "Resume", "Contact", "Games", "Projects", "Music"];
 
-
+    const showNodes = () => {
+        return nodes.map((node, i) => {
+            if(i >= nodes.length - 1){
+                return <NavNode key={i} node={node}/>
+            } else {
+                return (
+                    <>
+                    <NavNode key={i} node={node}/>
+                    <NodeLine/>
+                    </>
+                )
+            }
+        })
+    }
 
     return (
         <div className="nav-container">
-            <NavNode/>
+            {/* <NavNode/>
             <NodeLine/>
             <NavNode/>
             <NodeLine/>
@@ -19,7 +32,8 @@ const Nav = () => {
             <NodeLine/>
             <NavNode/>
             <NodeLine/>
-            <NavNode/>
+            <NavNode/> */}
+            {showNodes()}
         </div>
     );
 }
