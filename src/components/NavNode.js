@@ -4,7 +4,9 @@ const NavNode = (props) => {
     const { node } = props;
 
     const showNodeName = () => {
-        console.log(node);
+        let contentContainer = document.getElementById("content-container");
+
+        contentContainer.classList.add("show-content-border");
     }
 
     return (
