@@ -1,0 +1,14 @@
+{
+    "games": [
+        {
+            "name": "Ningning na Diyosa",
+            "type": "game",
+            "github": "blah.com"
+        },
+        {
+            "name": "Maliksi",
+            "type": "game",
+            "github": "bloooh.com"
+        }
+    ]
+}
