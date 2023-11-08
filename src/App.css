@@ -19,8 +19,15 @@ p {
   all: unset;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, p, b, li {
   color: white;
+}
+
+.header-dot {
+  font-size: 8px;
+  top: 4px;
+  bottom: 8px;
+  padding: 12px;
 }
 
 .nav-container {
@@ -49,7 +56,7 @@ h1, h2, p {
 
 .node-letter {
   position: absolute;
-  bottom: 10px;
+  bottom: 8px;
   left: 14px;
   color: rgb(21, 71, 58);
   font-size: 32px;
@@ -60,11 +67,14 @@ h1, h2, p {
   border-right: #fff 2px solid;
 }
 
-.content-container {
-  /* padding: 24px; */
+.content-container, #content-container {
   margin-top: 40px;
   margin-left: 240px;
-  margin-right: 160px;
+  margin-right: 80px;
+}
+
+.resume-container {
+  border-left: 2px solid #fff;
 }
 
 .content-container::before {
@@ -128,4 +138,64 @@ fieldset legend {
   animation-name: show-block;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
+}
+
+
+
+@keyframes node-border {
+  /* 33% {
+    opacity: 1;
+  }
+  66% {
+    opacity: 0;
+  } */
+  0% {
+    transform: rotate(0deg);
+  }
+
+   100% {
+    transform: rotate(360deg);
+   }
+}
+
+@keyframes letter-no-rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.active-node {
+  background: linear-gradient(rgba(2,0,36,1), rgb(140, 237, 211));
+  overflow: hidden;
+}
+
+.active-node::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380%;
+  height: 360%;
+  background-image: linear-gradient(rgba(2,0,36,1), rgb(140, 237, 211));
+  animation: node-border 4s linear infinite;
+}
+
+.active-node::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  inset: 5px;
+  border-radius: 26px;
+}
+
+.active-node .node-letter {
+  position: absolute;
+  color: rgb(21, 71, 58);
+  z-index: 2;
+  /* animation: letter-no-rotate 4s linear infinite;
+  animation-fill-mode: forwards; */
+
 }

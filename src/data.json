@@ -1,14 +1,277 @@
 {
+    "about": [
+        "Hi! I'm Fabian. I'm a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and design sfx, to building web & software apps.",
+        "I'm passionate about combining my passions of audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
+    ],
+    "resume": [
+        {
+        "company": "Servco Pacific Inc.",
+        "role": "Software Developer",
+        "startDate": "March 2022",
+        "endDate": "Present",
+        "responsibilities": [
+                "Update & maintain multiple sites in the front end with Javascript, ISML & CSS in responsive design",
+                "Build custom components for Salesforce Commerce Cloud Page Designer in Javascript",
+                "Write technical documentation for non-developers on custom components for Page Designer",
+                "Work in Agile 2-week sprint, using Jira for task management, & Azure DevOps for version control"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "role": "Software Developer & Technical Sound Designer",
+            "startDate": "August 2019",
+            "endDate": "Present",
+            "responsibilities": [
+                "Develop games in Unity, Unreal Engine, and Godot, with emphasis on audio production",
+                "Build full stack or frontend music web apps with React & Node.js",
+                "Create & sell audio plugin in Kontakt for musicians to use in their music"
+            ]
+        },
+        {
+            "company": "Freelance Music",
+            "role": "Composer, Arranger, Musician",
+            "startDate": "June 2016",
+            "endDate": "Present",
+            "responsibilities": [
+                "Arrange & record live instruments for collaborative albums by video game community, GameGrooves",
+                "Compose music & design SFX for games"
+            ]
+        }
+
+    ],
+    "education": [
+        {
+            "school": "School of Video Game Audio",
+            "location": false,
+            "endDate": "Current",
+            "focus": "Pure Data, Sound Design"
+        },
+        {
+            "school": "Flatiron School",
+            "location": "Seattle, WA",
+            "endDate": "2019",
+            "focus": "15-week intensive coding bootcamp in Software Engineering"
+        },
+        {
+            "school": "University of Hawai'i of Mānoa",
+            "location": "Honolulu, HI",
+            "endDate": "2016",
+            "focus": "B.A. in Music & Anthropology"
+        }
+    ],
+    "volunteer": [
+        {
+            "name": "JSConfHI",
+            "location": "Honolulu, HI",
+            "event": "Javascript Conference",
+            "endDate": "February 2020",
+            "description": "Helped manage & cater for 100+ attendees"
+        }
+    ],
+    "contact": [
+
+    ],
     "games": [
         {
             "name": "Ningning na Diyosa",
-            "type": "game",
-            "github": "blah.com"
+            "role": "Solo Developer",
+            "image": "",
+            "type": "2D Action Space Shooter",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "blah.com",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "The Great Bleaching",
+            "role": "Audio Implementer",
+            "image": "",
+            "type": "3D Adventure",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "",
+            "video": ""
         },
         {
             "name": "Maliksi",
-            "type": "game",
-            "github": "bloooh.com"
+            "role": "Solo Developer",
+            "image": "",
+            "type": "2D Action",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "Multo ilaw",
+            "role": "Solo Developer",
+            "image": "",
+            "type": "2D Endless Runner",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "github.com",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "Ritsu & Mochi",
+            "role": "Technical Sound Designer",
+            "image": "",
+            "type": "3D puzzle",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "github.com",
+            "ost": "",
+            "video": ""
+        },
+        {
+            "name": "Night of the Lesbian Vampires",
+            "role": "Composer, Sound Designer, Dialogue Audio Editor",
+            "image": "",
+            "type": "Visual Novel",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "DIY or Die",
+            "role": "Technical Sound Designer",
+            "image": "",
+            "type": "2D Point & Click Game",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "github.com",
+            "ost": "",
+            "video": ""
+        },
+        {
+            "name": "Death by Debt",
+            "role": "Composer",
+            "image": "",
+            "type": "Visual Novel",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "Sidetracked!",
+            "role": "Composer, Sound Designer",
+            "image": "",
+            "type": "Visual Novel",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "bandcamp.com",
+            "video": ""
+        },
+        {
+            "name": "Pathfinder: Last Stand",
+            "role": "Composer, Sound Designer",
+            "image": "",
+            "type": "2D Topdown Action Survival",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "",
+            "ost": "",
+            "video": ""
+        },
+        {
+            "name": "OshaCoaster",
+            "role": "Technical Sound Designer",
+            "image": "",
+            "type": "3D Sandbox",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "github.com",
+            "ost": "",
+            "video": ""
+        },
+        {
+            "name": "FMOD Audio Integration Demo",
+            "role": "Solo Developer",
+            "image": "",
+            "type": "Demo",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "ost": "",
+            "video": "video"
         }
+    
+        
+    ],
+    "projects": [
+        {
+            "name": "Ergo Argot",
+            "image": "",
+            "type": "web app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        },
+        {
+            "name": "Polar Patterns",
+            "image": "",
+            "type": "web app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        },
+        {
+            "name": "Waver Synth",
+            "image": "",
+            "type": "web audio app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        },
+        {
+            "name": "Music Leftovers",
+            "image": "",
+            "type": "web app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        },
+        {
+            "name": "Saranay VST",
+            "image": "",
+            "type": "vst plugin",
+            "description": "",
+            "itchio": "itch.io",
+            "github": "github.com",
+            "link": "url",
+            "video": "video"
+        },
+        {
+            "name": "Learn Filipino Rondalla",
+            "image": "",
+            "type": "web app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        },
+        {
+            "name": "Music Leftovers",
+            "image": "",
+            "type": "web app",
+            "description": "",
+            "itchio": "",
+            "github": "github.com",
+            "link": "url"
+        }
+        
     ]
 }

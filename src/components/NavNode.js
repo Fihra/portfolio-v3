@@ -2,23 +2,18 @@ import React, { useContext } from 'react';
 import { MainContext } from '../context/MainContext';
 
 const NavNode = (props) => {
-    const { currentNode, setNode } = useContext(MainContext);
+    const { setNode, currentNode } = useContext(MainContext);
+    const { node, bgColor } = props;
 
-
-    const { node } = props;
+    console.log(bgColor);
 
     const showNodeName = () => {
-        // let contentContainer = document.getElementById("content-container");
-        // console.log(setNode);
-        // console.log(node);
-        // contentContainer.classList.add("show-content-border");
         setNode(node.toLowerCase());
+        window.scrollTo(0, 0);
     }
 
-    console.log(currentNode);
-
     return (
-        <div className={`node-circle ${node}`}>
+        <div className={`node-circle ${node} ${node.toLowerCase() === currentNode ? "active-node" : ""}`}>
             <p className="node-letter" onClick={showNodeName}>{node[0]}</p>
         </div>
     );
