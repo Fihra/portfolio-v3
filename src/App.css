@@ -247,3 +247,16 @@ fieldset legend {
 input::placeholder {
   font-family: var(--main-font);
 }
+
+.all-games {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  padding: 20px;
+}
+
+.game-card:hover {
+  opacity: 0.5;
+}
