@@ -19,12 +19,12 @@ const Resume = () => {
     const outputSection = (job) => {
         console.log(job);
         return (
-            <div>
+            <div className="job-section">
                 <h3>{job.company}</h3>
                 <h4>Role: {job.role}</h4>
                 <p>{job.startDate} - {job.endDate}</p>
                 <br/>
-                <p><b>Responsibilities</b></p>
+                <p><b>|Responsibilities|</b></p>
                 <ul>
                     {job.responsibilities.map((task, i) => {
                         return <li key={i}>{task}</li>
