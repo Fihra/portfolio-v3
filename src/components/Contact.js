@@ -39,10 +39,7 @@ const Contact = () => {
     useEffect(() => {
         let contentContainer = document.getElementById("content-container");
         contentContainer.classList.add("show-content-border");
-        // emailjs.init(process.env.REACT_APP_PUBLIC_KEY);
     }, [])
-
-
 
     return (
         <div id="content-container" className="contact-container">
