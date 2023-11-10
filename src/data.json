@@ -75,7 +75,7 @@
         {
             "name": "Ningning na Diyosa",
             "role": "Solo Developer",
-            "image": "",
+            "image": "/images/game_images/ningning_na_diyosa.png",
             "type": "2D Action Space Shooter",
             "description": "",
             "itchio": "itch.io",
@@ -86,7 +86,7 @@
         {
             "name": "The Great Bleaching",
             "role": "Audio Implementer",
-            "image": "",
+            "image": "/images/game_images/The_Great_Bleaching.png",
             "type": "3D Adventure",
             "description": "",
             "itchio": "itch.io",
@@ -97,7 +97,7 @@
         {
             "name": "Maliksi",
             "role": "Solo Developer",
-            "image": "",
+            "image": "/images/game_images/Maliksi.png",
             "type": "2D Action",
             "description": "",
             "itchio": "itch.io",
@@ -108,7 +108,7 @@
         {
             "name": "Multo ilaw",
             "role": "Solo Developer",
-            "image": "",
+            "image": "/images/game_images/multo-ilaw.png",
             "type": "2D Endless Runner",
             "description": "",
             "itchio": "itch.io",
@@ -119,7 +119,7 @@
         {
             "name": "Ritsu & Mochi",
             "role": "Technical Sound Designer",
-            "image": "",
+            "image": "/images/game_images/ritsu_mochi.png",
             "type": "3D puzzle",
             "description": "",
             "itchio": "itch.io",
@@ -130,7 +130,7 @@
         {
             "name": "Night of the Lesbian Vampires",
             "role": "Composer, Sound Designer, Dialogue Audio Editor",
-            "image": "",
+            "image": "/images/game_images/NLV.png",
             "type": "Visual Novel",
             "description": "",
             "itchio": "itch.io",
@@ -141,7 +141,7 @@
         {
             "name": "DIY or Die",
             "role": "Technical Sound Designer",
-            "image": "",
+            "image": "/images/game_images/DIY_or_DIE.jpg",
             "type": "2D Point & Click Game",
             "description": "",
             "itchio": "itch.io",
@@ -152,7 +152,7 @@
         {
             "name": "Death by Debt",
             "role": "Composer",
-            "image": "",
+            "image": "/images/game_images/DeathByDebt.png",
             "type": "Visual Novel",
             "description": "",
             "itchio": "itch.io",
@@ -163,7 +163,7 @@
         {
             "name": "Sidetracked!",
             "role": "Composer, Sound Designer",
-            "image": "",
+            "image": "/images/game_images/Sidetracked.jpg",
             "type": "Visual Novel",
             "description": "",
             "itchio": "itch.io",
@@ -174,7 +174,7 @@
         {
             "name": "Pathfinder: Last Stand",
             "role": "Composer, Sound Designer",
-            "image": "",
+            "image": "/images/game_images/pathfinder_laststand.png",
             "type": "2D Topdown Action Survival",
             "description": "",
             "itchio": "itch.io",
@@ -185,7 +185,7 @@
         {
             "name": "OshaCoaster",
             "role": "Technical Sound Designer",
-            "image": "",
+            "image": "/images/game_images/OshaCoaster.jpg",
             "type": "3D Sandbox",
             "description": "",
             "itchio": "itch.io",
@@ -196,7 +196,7 @@
         {
             "name": "FMOD Audio Integration Demo",
             "role": "Solo Developer",
-            "image": "",
+            "image": "/images/game_images/FMOD_Audio_Integration_Demo.jpg",
             "type": "Demo",
             "description": "",
             "itchio": "",
