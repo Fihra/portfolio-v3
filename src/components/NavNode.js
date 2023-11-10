@@ -3,9 +3,7 @@ import { MainContext } from '../context/MainContext';
 
 const NavNode = (props) => {
     const { setNode, currentNode } = useContext(MainContext);
-    const { node, bgColor } = props;
-
-    console.log(bgColor);
+    const { node } = props;
 
     const showNodeName = () => {
         setNode(node.toLowerCase());
