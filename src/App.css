@@ -254,9 +254,31 @@ input::placeholder {
 }
 
 .game-card {
+  position: relative;
   padding: 20px;
 }
 
 .game-card:hover {
   opacity: 0.5;
+}
+
+.game-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+  
+}
+
+.game-card:hover .game-info {
+  opacity: 1;
+}
+
+.game-info p {
+  background-color: lightblue;
+  color: black;
 }
