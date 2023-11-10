@@ -1,16 +1,61 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import * as emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const initialFormState = {
+        name: "",
+        email: "",
+        message: ""
+    }
+
+    const [contactData, setContactData] = useState({...initialFormState});
+
+    const handleFormChange = (e) => {
+        setContactData({
+            ...contactData,
+            [e.target.name]: e.target.value,
+        });
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            process.env.REACT_APP_SECRET_CODE,
+            process.env.REACT_APP_TEMPLATE_CODE,
+            e.target,
+            process.env.REACT_APP_PUBLIC_KEY
+        ).then(
+            (result) => {
+                console.log(result.text);
+            },
+            (error) => {
+                console.log(error.text);
+            },
+        );
+        setContactData({...initialFormState});
+    }
+
     useEffect(() => {
         let contentContainer = document.getElementById("content-container");
         contentContainer.classList.add("show-content-border");
+        // emailjs.init(process.env.REACT_APP_PUBLIC_KEY);
     }, [])
+
+
 
     return (
         <div id="content-container" className="contact-container">
             <fieldset>
                 <legend>Contact</legend>
-                <p>Contact dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <input type="text" onChange={handleFormChange} name="name" placeholder="Your name" value={contactData.name} required></input>
+                    <input type="email" onChange={handleFormChange} name="email" placeholder="youremail@email.com" value={contactData.email} required></input>
+                    <textarea onChange={handleFormChange} name="message" rows="4" cols="50" value={contactData.message} required>
+                        Your message
+                    </textarea>
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
             </fieldset>
         </div>
     );
