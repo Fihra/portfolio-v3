@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import data from "../data.json";
 
 const About = () => {
-    const { about } = data;
+    const { about, solo_headshot } = data;
 
     const outputData = () => {
         return about.map((sentence, i) => {
@@ -29,7 +29,12 @@ const About = () => {
         <div id="content-container" className="about-container">
             <fieldset>
                 <legend>About</legend>
-                {outputData()}
+                <div className="about-section">
+                    <img src={solo_headshot[0].pic} width={150} height={300}/>
+                    <div className="about-text">
+                    {outputData()}
+                    </div>
+                </div>
             </fieldset>
         </div>
     );
