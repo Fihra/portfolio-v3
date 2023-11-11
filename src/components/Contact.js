@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as emailjs from 'emailjs-com';
+import data from '../data.json';
 
 const Contact = () => {
     const initialFormState = {
@@ -7,6 +8,8 @@ const Contact = () => {
         email: "",
         message: ""
     }
+
+    const { description } = data.contact[0];
 
     const [contactData, setContactData] = useState({...initialFormState});
 
@@ -45,6 +48,7 @@ const Contact = () => {
         <div id="content-container" className="contact-container">
             <fieldset>
                 <legend>Contact</legend>
+                <p>{description}</p>
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <input type="text" onChange={handleFormChange} name="name" placeholder="Your name" value={contactData.name} required></input>
                     <input type="email" onChange={handleFormChange} name="email" placeholder="youremail@email.com" value={contactData.email} required></input>
