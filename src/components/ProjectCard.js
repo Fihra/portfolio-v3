@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import { FaGithub } from 'react-icons/fa';
 import { MdOutlineGames } from 'react-icons/md';
-import { FaMusic } from 'react-icons/fa';
+import { CgWebsite } from 'react-icons/cg';
 
 const customStyle = {
     content: {
@@ -54,7 +54,7 @@ const ProjectCard = (props) => {
                     <ul>
                         {(github !== "") && <li><a href={github}><FaGithub size={iconSize} color={"white"}/></a></li>}
                         {(itchio !== "") && <li><a href={itchio}><MdOutlineGames size={iconSize} color={"white"}/></a></li> }
-                        {(link !== "") && <li><a href={link}><FaMusic size={iconSize} color={"white"}/></a></li>}                    
+                        {(link !== "") && <li><a href={link}><CgWebsite size={iconSize} color={"white"}/></a></li>}                    
                     </ul>
                 </div>
             </Modal>
