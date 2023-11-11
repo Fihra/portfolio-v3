@@ -47,7 +47,7 @@ h1, h2, h3, h4, p, b, li {
 .header-dot {
   font-size: 8px;
   top: 4px;
-  bottom: 8px;
+  bottom: 14px;
   padding: 12px;
 }
 
@@ -86,6 +86,21 @@ h1, h2, h3, h4, p, b, li {
 .node-letter:hover > .content-container {
   border-top: #fff 2px solid;
   border-right: #fff 2px solid;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1 1 50%; */
+}
+
+.about-section img {
+  flex-grow: 1;
+}
+
+.about-text {
+  flex-grow: 3;
+  width: 50%;
 }
 
 .content-container, #content-container {
@@ -248,21 +263,26 @@ input::placeholder {
   font-family: var(--main-font);
 }
 
-.all-games {
+.all-games, .all-projects {
   display: flex;
   flex-wrap: wrap;
 }
 
-.game-card {
+.game-card, .project-card {
   position: relative;
   padding: 20px;
+  cursor: pointer;
 }
 
-.game-card:hover {
+.game-card:hover, .project-card:hover {
+  opacity: 1;
+}
+
+.game-card:hover img, .project-card:hover img {
   opacity: 0.5;
 }
 
-.game-info {
+.game-info, .project-info {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -271,14 +291,42 @@ input::placeholder {
   text-align: center;
   opacity: 0;
   transition: 0.5s ease;
-  
 }
 
-.game-card:hover .game-info {
+.game-card:hover .game-info, .project-card:hover .project-info {
   opacity: 1;
 }
 
-.game-info p {
-  background-color: lightblue;
-  color: black;
+.game-info p, .project-info p {
+  background: rgba(0, 0, 0, 0.50);
+  color: white;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .50) !important;
+}
+
+.ReactModal__Overlay--before-close{
+  transition: opacity 200ms ease-in-out;
+  opacity: 0;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.icons-container ul {
+  display: inline-flex;
+}
+
+.icons-container li {
+  list-style-type: none;
+  margin-right: 24px;
 }
