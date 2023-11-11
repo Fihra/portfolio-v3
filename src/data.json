@@ -3,6 +3,17 @@
         "Hi! I'm Fabian. I'm a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and design sfx, to building web & software apps.",
         "I'm passionate about combining my passions of audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
     ],
+    "solo_headshot": [
+        {
+            "pic": "/images/solo_headshot_nov_2021.jpg"
+        }
+    ],
+    "skills": [
+        {
+            "languages": ["Javascript", "C#", "HTML", "CSS", "Python"],
+            "Frameworks": ["React", "Unity", "Unreal Engine", "Godot", "Pure Data", "Kontakt KSP", "Django" ]
+        }
+    ],
     "resume": [
         {
         "company": "Servco Pacific Inc.",
@@ -69,7 +80,9 @@
         }
     ],
     "contact": [
-
+        {
+            "description": "Email me for any inquiries."
+        }
     ],
     "games": [
         {
@@ -77,10 +90,10 @@
             "role": "Solo Developer",
             "image": "/images/game_images/ningning_na_diyosa.png",
             "type": "2D Action Space Shooter",
-            "description": "",
-            "itchio": "itch.io",
-            "github": "blah.com",
-            "ost": "bandcamp.com",
+            "description": "Play as Tala, a light goddess who must fend off against Filipino mythical creatures in space using her light orbs.",
+            "itchio": "https://firahfabe.itch.io/ningning-na-diyosa",
+            "github": "",
+            "ost": "https://firahfabe.bandcamp.com/album/ningning-na-diyosa-game-soundtrack-mini-ep",
             "video": ""
         },
         {
@@ -88,9 +101,9 @@
             "role": "Audio Implementer",
             "image": "/images/game_images/The_Great_Bleaching.png",
             "type": "3D Adventure",
-            "description": "",
-            "itchio": "itch.io",
-            "github": "",
+            "description": "You are Liko the Louse. Prophecy foretells of 'The Great Bleaching', a cataclysmic event that occurs when the roots of the hair are a different color, as tall as a louse house. Embark on an epic quest to save your village from uncertain doom.",
+            "itchio": "https://andyman404.itch.io/bleaching",
+            "github": "https://github.com/andyman/TheGreatBleaching",
             "ost": "",
             "video": ""
         },
@@ -99,10 +112,10 @@
             "role": "Solo Developer",
             "image": "/images/game_images/Maliksi.png",
             "type": "2D Action",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "Play as Malik, an Eskrimador who must fight through Filipino-inspired mythological creature bosses for her to retrieve the stolen light that protects the village.",
+            "itchio": "https://firahfabe.itch.io/maliksi",
             "github": "",
-            "ost": "bandcamp.com",
+            "ost": "https://firahfabe.bandcamp.com/album/maliksi-game-soundtrack",
             "video": ""
         },
         {
@@ -110,10 +123,10 @@
             "role": "Solo Developer",
             "image": "/images/game_images/multo-ilaw.png",
             "type": "2D Endless Runner",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "Play as Multo, where you must bring a light to a village in order to ward off the evil spirits.",
+            "itchio": "https://firahfabe.itch.io/multo-ilaw",
             "github": "github.com",
-            "ost": "bandcamp.com",
+            "ost": "https://firahfabe.bandcamp.com/album/multo-ilaw-game-soundtrack",
             "video": ""
         },
         {
@@ -121,9 +134,9 @@
             "role": "Technical Sound Designer",
             "image": "/images/game_images/ritsu_mochi.png",
             "type": "3D puzzle",
-            "description": "",
-            "itchio": "itch.io",
-            "github": "github.com",
+            "description": "Follow Ritsu the young robotics engineer and MOCHI, his trusty robot as they explore an abandoned robot factory.",
+            "itchio": "https://v3.globalgamejam.org/2021/games/ritsu-mochi-9",
+            "github": "https://github.com/zsd4yr/mochi",
             "ost": "",
             "video": ""
         },
@@ -132,10 +145,10 @@
             "role": "Composer, Sound Designer, Dialogue Audio Editor",
             "image": "/images/game_images/NLV.png",
             "type": "Visual Novel",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "Go on a date with one of the vampires and maybe it will change your life!",
+            "itchio": "https://scribbles.itch.io/night-of-the-lesbian-vampires",
             "github": "",
-            "ost": "bandcamp.com",
+            "ost": "https://firahfabe.bandcamp.com/album/night-of-the-lesbian-vampires-game-soundtrack",
             "video": ""
         },
         {
@@ -143,9 +156,9 @@
             "role": "Technical Sound Designer",
             "image": "/images/game_images/DIY_or_DIE.jpg",
             "type": "2D Point & Click Game",
-            "description": "",
-            "itchio": "itch.io",
-            "github": "github.com",
+            "description": "Your old patched up car is finally giving out while you're on a road trip. Quickly use some spare parts from your car and patch them up while driving! Repair and Craft your way to the nearest pitstop or die stranded in the desert with no help. ",
+            "itchio": "https://v3.globalgamejam.org/2020/games/diy-or-die-5",
+            "github": "https://github.com/DIY-or-Die/diy-or-die",
             "ost": "",
             "video": ""
         },
@@ -154,10 +167,10 @@
             "role": "Composer",
             "image": "/images/game_images/DeathByDebt.png",
             "type": "Visual Novel",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "Death by Debt is a gay dating sim created for Nanoreno2020. ",
+            "itchio": "https://mintbiscuits.itch.io/death-by-debt",
             "github": "",
-            "ost": "bandcamp.com",
+            "ost": "https://firahfabe.bandcamp.com/album/death-by-debt-game-soundtrack",
             "video": ""
         },
         {
@@ -165,10 +178,10 @@
             "role": "Composer, Sound Designer",
             "image": "/images/game_images/Sidetracked.jpg",
             "type": "Visual Novel",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "A visual novel about getting one thing done in the course of a day. ",
+            "itchio": "https://komehara.itch.io/sidetracked",
             "github": "",
-            "ost": "bandcamp.com",
+            "ost": "https://firahfabe.bandcamp.com/album/sidetracked-game-soundtrack",
             "video": ""
         },
         {
@@ -176,8 +189,8 @@
             "role": "Composer, Sound Designer",
             "image": "/images/game_images/pathfinder_laststand.png",
             "type": "2D Topdown Action Survival",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "A survival based arcade game, where you must fend off many enemies that hide in the shadows.",
+            "itchio": "https://codetorex.itch.io/pathfinder",
             "github": "",
             "ost": "",
             "video": ""
@@ -187,8 +200,8 @@
             "role": "Technical Sound Designer",
             "image": "/images/game_images/OshaCoaster.jpg",
             "type": "3D Sandbox",
-            "description": "",
-            "itchio": "itch.io",
+            "description": "OSHA Coaster lets you live out your dreams of inflicting inflicting as much pain and suffering to allow you cash in on that sweet medical bill money.",
+            "itchio": "https://terrehbyte.itch.io/osha-coaster",
             "github": "github.com",
             "ost": "",
             "video": ""
@@ -210,68 +223,65 @@
     "projects": [
         {
             "name": "Ergo Argot",
-            "image": "",
+            "image": "/images/project_images/ergo-argot-demo.gif",
             "type": "web app",
-            "description": "",
+            "description": "A small mobile app. Search for a word, phrase, acronym from internet slang and receive the first definition result of it based on the Urban Dictionary API.",
             "itchio": "",
-            "github": "github.com",
-            "link": "url"
+            "github": "https://github.com/Fihra/ergo-argot",
+            "link": "https://ergo-argot.netlify.app/"
         },
         {
             "name": "Polar Patterns",
-            "image": "",
+            "image": "/images/project_images/polar-patterns-app.gif",
             "type": "web app",
-            "description": "",
+            "description": "A web app to show the different polar patterns for microphone recording.",
             "itchio": "",
-            "github": "github.com",
-            "link": "url"
+            "github": "https://github.com/Fihra/polar-patterns",
+            "link": "https://polar-patterns.netlify.app/"
         },
         {
             "name": "Waver Synth",
-            "image": "",
+            "image": "/images/project_images/Waver_Synth.gif",
             "type": "web audio app",
-            "description": "",
+            "description": "A Web Wavetable Synthesizer.",
             "itchio": "",
-            "github": "github.com",
+            "github": "https://github.com/Fihra/waver-synth",
             "link": "url"
         },
         {
             "name": "Music Leftovers",
-            "image": "",
+            "image": "/images/project_images/Music_leftovers.png",
             "type": "web app",
-            "description": "",
+            "description": "A mock E-Commerce shop of used music gear.",
             "itchio": "",
-            "github": "github.com",
+            "github": "https://github.com/Fihra/music-shop-ecommerce",
             "link": "url"
         },
         {
             "name": "Saranay VST",
-            "image": "",
+            "image": "/images/project_images/Saranay_VST_Demo.gif",
             "type": "vst plugin",
-            "description": "",
-            "itchio": "itch.io",
-            "github": "github.com",
-            "link": "url",
+            "description": "Kontakt VST instrument of the Saranay, a Filipino traditional instrument.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/Saranay-VST-Public",
+            "link": "https://firahfabe.itch.io/saranay-vst",
             "video": "video"
         },
         {
             "name": "Learn Filipino Rondalla",
-            "image": "",
+            "image": "/images/project_images/Learn_Rondalla.png",
             "type": "web app",
-            "description": "",
+            "description": "An educational site to learn about Filipino Rondalla, a traditional music style from the Philippines. It is a resource for composers and arrangers to get started in scoring for Rondalla instruments for their music.",
             "itchio": "",
-            "github": "github.com",
-            "link": "url"
-        },
+            "github": "https://github.com/Fihra/Learn-Rondalla",
+            "link": "https://learnfilipinorondalla.netlify.app/"
+        }       
+    ],
+    "music": [
         {
-            "name": "Music Leftovers",
-            "image": "",
-            "type": "web app",
-            "description": "",
-            "itchio": "",
-            "github": "github.com",
-            "link": "url"
+            "bandcamp": "https://firahfabe.bandcamp.com/",
+            "spotify": "https://open.spotify.com/artist/5MwSQ5vfamJ2RZSeP12ql5?si=Z7ptJQWJQ9K09exaSbdHQw",
+            "link": ""
         }
-        
     ]
 }
