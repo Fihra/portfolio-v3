@@ -23,7 +23,6 @@ const Music = () => {
                 <ul className="music-links">
                     <li><a href={bandcamp}><FaBandcamp size={iconSize} color={"white"}/></a></li>
                     <li><a href={spotify}><FaSpotify size={iconSize} color={"white"}/></a></li>
-                    {/* <li><a href={bandcamp}><FaBandcamp size={iconSize}/></a></li> */}
                 </ul>
             </fieldset>
         </div>
