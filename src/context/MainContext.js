@@ -14,20 +14,10 @@ export const MainProvider = ({ children }) => {
         })
     }
 
-    const getData = (data) => {
-        dispatch({
-            type: ACTIONS.GET_DATA,
-            payload: {
-                newData: data 
-            }
-        })
-    }
-
     const value = {
         currentNode: state.currentNode,
         data: state.data,
         setNode,
-        getData
     }
 
     return <MainContext.Provider value={value}>{children}</MainContext.Provider>
