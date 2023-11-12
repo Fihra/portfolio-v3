@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Modal from 'react-modal';
 import { FaGithub } from 'react-icons/fa';
 import { MdOutlineGames } from 'react-icons/md';
@@ -13,13 +13,44 @@ const customStyle = {
         overflow: 'hidden',
         margin: '0 auto',
         backgroundColor: 'rgba(0, 0, 0, 0.5)'
+    },
+    mobileView :{
+        zIndex: '3',
+        width: 100,
+        height: 200,
+        textAlign: 'center',
+        overflow: 'hidden',
+        margin: '0 auto',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)'
     }
 }
 
+const currentWindowSize = {
+    width: '',
+    height: ''
+}
+
 const GameCard = (props) => {
+    const [windowSize, setWindowSize] = useState(currentWindowSize);
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [hover, setHover] = useState(false);
     const { name, role, type, description, github, image, itchio, ost, video } = props.game;
+
+    const handleResize = () => {
+        setWindowSize({
+            ...currentWindowSize,
+            width: window.innerWidth,
+            height: window.innerHeight
+        })
+    }
+
+    useEffect(() => {
+        handleResize();
+    }, [])
+
+    window.addEventListener("resize", handleResize);
+
+    console.log(windowSize);
 
     const onHover = () => {
         setHover(true);
@@ -42,9 +73,10 @@ const GameCard = (props) => {
     return(
         <div className="game-card">
             <Modal
-                style={customStyle}
+                style={windowSize.width < 500 ? customStyle.mobileView : customStyle.content}
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
+                className="mobile-modal"
             >
                 <h2>{name}</h2>
                 <img src={image} width={470} height={250}/>
