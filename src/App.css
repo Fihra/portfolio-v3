@@ -330,6 +330,21 @@ input::placeholder {
   opacity: 0;
 }
 
+.game-card, .project-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-modal h2, .main-modal h4, .main-modal p {
+  text-align: center;
+}
+
+.main-modal img {
+  display: block;
+  margin: 0 auto;
+}
+
 .icons-container {
   display: flex;
 }
@@ -411,15 +426,12 @@ input::placeholder {
     margin: 0 auto;
   }
 
-  .mobile-modal {
-    background-color: orange;
-    width: 100px;
-    height: 200px;
+  .main-modal {
+    width: unset !important;
   }
 
-  .ReactModal__Overlay--after-open {
-    width: 100px;
-    height: 200px;
+  .main-modal img {
+    width: 300px;
   }
 }
 
@@ -436,4 +448,13 @@ input::placeholder {
   color: var(--light-green);
   background-color: var(--charcoal);
   font-family: var(--main-font);
+}
+
+.ReactModal__Overlay--after-open .main-modal {
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10%;
 }
