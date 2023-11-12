@@ -61,9 +61,7 @@ const ProjectCard = (props) => {
                 </div>
             </Modal>
             <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver}/>
-            <div className="project-info">
-                <p>{name}</p>
-            </div>
+            {hover && <div className="project-info"><p>{name}</p></div>}
         </div>
     )
 }

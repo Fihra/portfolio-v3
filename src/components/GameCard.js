@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Modal from 'react-modal';
 import { FaGithub } from 'react-icons/fa';
 import { MdOutlineGames } from 'react-icons/md';
@@ -49,7 +49,7 @@ const GameCard = (props) => {
                 className="main-modal"
             >
                 <h2>{name}</h2>
-                <img src={image} width={400} height={250}/>
+                <img src={image} width={400} height={250} alt={`${name} cover in modal`}/>
                 <h4>Role: {role}</h4>
                 <p>{description}</p>
                 <div className="icons-container">
@@ -60,10 +60,8 @@ const GameCard = (props) => {
                     </ul>
                 </div>
             </Modal>
-            <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver}/>
-            <div className="game-info">
-                <p>{name}</p>
-            </div>
+            <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver} alt={`${name} cover`}/>
+            {hover && <div className="game-info"><p>{name}</p></div>}
         </div>
     )
 }
