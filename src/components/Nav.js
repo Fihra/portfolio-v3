@@ -22,17 +22,6 @@ const Nav = () => {
 
     return (
         <nav className="nav-container">
-            {/* <NavNode/>
-            <NodeLine/>
-            <NavNode/>
-            <NodeLine/>
-            <NavNode/>
-            <NodeLine/>
-            <NavNode/>
-            <NodeLine/>
-            <NavNode/>
-            <NodeLine/>
-            <NavNode/> */}
             {showNodes()}
         </nav>
     );
