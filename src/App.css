@@ -5,6 +5,8 @@
   --white: #fff;
   --main-green: #328770;
   --light-green: #8cedd3;
+  --charcoal:#273E47;
+  --shadows: 3px 2px 2px var(--charcoal);
 }
 
 .App {
@@ -33,14 +35,30 @@ p {
 }
 
 h1, h2, h3, h4, p, b, li {
-  color: white;
+  color: var(--white);
+}
+
+.header-container h1 {
+  margin-bottom: 0;
+}
+
+.header-container h1, .header-container h2:not(span) {
+  text-shadow: var(--shadows);
+}
+
+.header-roles-container, .header-roles-container span {
+  display: inline-flex;
 }
 
 .header-dot {
+  position: relative;
+  margin-top: 12px;
   font-size: 8px;
   top: 4px;
   bottom: 14px;
   padding: 12px;
+  text-shadow: none;
+  color: var(--white);
 }
 
 .nav-container {
@@ -126,6 +144,7 @@ fieldset legend {
   color: var(--white);
   margin: 0 auto;
   font-size: 24px;
+  text-shadow: var(--shadows);
 }
 
 @keyframes show-block {
@@ -330,6 +349,56 @@ input::placeholder {
 
 /*Media Queries*/
 @media (max-width: 500px) {
+  .content-container, #content-container {
+    margin: 0 auto;
+  }
+  
+  field {
+    padding: 0;
+  }
+
+  .about-section img {
+    height: 500px;
+  }
+  
+  .about-text {
+    width: 100%;
+  }
+
+  #contact-form {
+    flex-direction: initial;
+  }
+
+  #contact-form input {
+    width: 300px;
+  }
+
+  #contact-form textarea {
+    width: 300px;
+  }
+
+  .content-container {
+    border: none;
+    padding: 20px; 
+  }
+
+  .show-content-border fieldset {
+    animation: none !important;
+  }
+
+  .header-roles-container {
+    flex-direction: column;
+  }
+  
+  .header-roles-container h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .header-container .header-dot {
+    display: none;
+  }
+
   .nav-container {
     display: none;
   }
@@ -337,4 +406,34 @@ input::placeholder {
   .mobile-nav-container {
     display: block;
   }
+
+  .game-card, .project-card {
+    margin: 0 auto;
+  }
+
+  .mobile-modal {
+    background-color: orange;
+    width: 100px;
+    height: 200px;
+  }
+
+  .ReactModal__Overlay--after-open {
+    width: 100px;
+    height: 200px;
+  }
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.css-1xd8f6b-MuiModal-root-MuiPopover-root-MuiMenu-root {
+  width: 300px !important;
+}
+
+.MuiMenu-root ul li{
+  color: var(--light-green);
+  background-color: var(--charcoal);
+  font-family: var(--main-font);
 }
