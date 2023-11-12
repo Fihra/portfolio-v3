@@ -11,10 +11,10 @@ const Nav = () => {
                 return <NavNode key={i} node={node}/>
             } else {
                 return (
-                    <>
-                    <NavNode key={i} node={node}/>
-                    <NodeLine key={node}/>
-                    </>
+                    <React.Fragment key={i}>
+                    <NavNode node={node}/>
+                    <NodeLine/>
+                    </React.Fragment>
                 )
             }
         })
