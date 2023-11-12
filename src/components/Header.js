@@ -8,11 +8,11 @@ const Header = () => {
     return header_roles.map((role, i) => {
       if(i < header_roles.length -1){
         return <>
-        <h2>{role}</h2><span className="header-dot">{'\u2B24'}</span>
+        <h2 key={i}>{role}</h2><span className="header-dot">{'\u2B24'}</span>
       </>
       } else {
         return(
-          <h2>{role}</h2>
+          <h2 key={i}>{role}</h2>
         ) 
       }
     })
