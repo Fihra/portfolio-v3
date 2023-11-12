@@ -3,7 +3,7 @@ import NavNode from './NavNode';
 import NodeLine from './NodeLine';
 
 const Nav = () => {
-    const nodes = ["About", "Resume", "Contact", "Games", "Projects", "Music"];
+    const nodes = ["About", "Experience", "Contact", "Games", "Projects", "Music"];
 
     const showNodes = () => {
         return nodes.map((node, i) => {
@@ -13,7 +13,7 @@ const Nav = () => {
                 return (
                     <>
                     <NavNode key={i} node={node}/>
-                    <NodeLine/>
+                    <NodeLine key={node}/>
                     </>
                 )
             }

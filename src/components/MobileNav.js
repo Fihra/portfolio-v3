@@ -25,7 +25,7 @@ const Nav = () => {
 
     const { setNode, currentNode } = useContext(MainContext);
 
-    const nodes = ["About", "Resume", "Contact", "Games", "Projects", "Music"];
+    const nodes = ["About", "Experience", "Contact", "Games", "Projects", "Music"];
 
     const handleClick = (e) => {
         setIsOpen(!isOpen);
