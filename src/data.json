@@ -3,6 +3,9 @@
         "Hi! I'm Fabian. I'm a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and design sfx, to building web & software apps.",
         "I'm passionate about combining my passions of audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
     ],
+    "header_roles": [
+        "Software Developer", "Technical Audio Designer", "Composer"
+    ],
     "solo_headshot": [
         {
             "pic": "/images/solo_headshot_nov_2021.jpg"
