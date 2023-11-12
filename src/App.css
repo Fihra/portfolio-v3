@@ -5,6 +5,8 @@
   --white: #fff;
   --main-green: #328770;
   --light-green: #8cedd3;
+  --light-brown: #dcb47a;
+  --dark-brown: #553200;
   --charcoal:#273E47;
   --shadows: 3px 2px 2px var(--charcoal);
 }
@@ -114,14 +116,40 @@ h1, h2, h3, h4, p, b, li {
   width: 50%;
 }
 
+.skills-section section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-section h3 {
+  color: var(--light-brown);
+}
+
+.skills-section div {
+  flex-grow: 4;
+}
+
+.skills-section img {
+  width: 50px;
+  height: 50px;
+}
+
+.skils-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.skills-section ul li {
+  list-style-type: none;
+  padding: 4px;
+  margin-left: -50px;
+}
+
 .content-container, #content-container {
   margin-top: 40px;
   margin-left: 240px;
   margin-right: 80px;
-}
-
-.resume-container {
-  /* border-left: 2px solid #fff; */
 }
 
 .content-container::before {
@@ -248,8 +276,10 @@ fieldset legend {
 
 }
 
-.job-section h3{
+.job-section h3, .school-section h3, .volunteer-section h3{
   text-decoration: underline;
+  text-shadow: 2px 2px 2px var(--dark);
+  color: var(--light-brown);
 }
 
 #contact-form {
@@ -294,7 +324,7 @@ input::placeholder {
   opacity: 0.5;
 }
 
-.game-info, .project-info {
+.game-info, .project-info, .skill-info {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -305,11 +335,24 @@ input::placeholder {
   transition: 0.5s ease;
 }
 
-.game-card:hover .game-info, .project-card:hover .project-info {
+.skills-section li {
+  position: relative;
+}
+
+.skill-info {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  /* text-align: center; */
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.game-card:hover .game-info, .project-card:hover .project-info , .skills-section .skill-info{
   opacity: 1;
 }
 
-.game-info p, .project-info p {
+.game-info p, .project-info p, .skill-info {
   background: rgba(0, 0, 0, 0.50);
   color: var(--white);
 }
@@ -368,12 +411,12 @@ input::placeholder {
     margin: 0 auto;
   }
   
-  field {
+  fieldset {
     padding: 0;
   }
 
   .about-section img {
-    height: 500px;
+    height: 390px;
   }
   
   .about-text {
@@ -448,6 +491,7 @@ input::placeholder {
   color: var(--light-green);
   background-color: var(--charcoal);
   font-family: var(--main-font);
+  font-size: 10px;
 }
 
 .ReactModal__Overlay--after-open .main-modal {
@@ -457,4 +501,5 @@ input::placeholder {
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 10%;
+  color: blue;
 }
