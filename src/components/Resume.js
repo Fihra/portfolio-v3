@@ -3,7 +3,6 @@ import data from "../data.json";
 
 const Resume = () => {
     const { resume } = data;
-    // console.log(resume);
 
     useEffect(() => {
         let contentContainer = document.getElementById("content-container");
