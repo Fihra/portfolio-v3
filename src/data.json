@@ -220,46 +220,8 @@
             "ost": "",
             "video": "video"
         }
-    
-        
     ],
     "projects": [
-        {
-            "name": "Ergo Argot",
-            "image": "/images/project_images/ergo-argot-demo.gif",
-            "type": "web app",
-            "description": "A small mobile app. Search for a word, phrase, acronym from internet slang and receive the first definition result of it based on the Urban Dictionary API.",
-            "itchio": "",
-            "github": "https://github.com/Fihra/ergo-argot",
-            "link": "https://ergo-argot.netlify.app/"
-        },
-        {
-            "name": "Polar Patterns",
-            "image": "/images/project_images/polar-patterns-app.gif",
-            "type": "web app",
-            "description": "A web app to show the different polar patterns for microphone recording.",
-            "itchio": "",
-            "github": "https://github.com/Fihra/polar-patterns",
-            "link": "https://polar-patterns.netlify.app/"
-        },
-        {
-            "name": "Waver Synth",
-            "image": "/images/project_images/Waver_Synth.gif",
-            "type": "web audio app",
-            "description": "A Web Wavetable Synthesizer.",
-            "itchio": "",
-            "github": "https://github.com/Fihra/waver-synth",
-            "link": "url"
-        },
-        {
-            "name": "Music Leftovers",
-            "image": "/images/project_images/Music_leftovers.png",
-            "type": "web app",
-            "description": "A mock E-Commerce shop of used music gear.",
-            "itchio": "",
-            "github": "https://github.com/Fihra/music-shop-ecommerce",
-            "link": "url"
-        },
         {
             "name": "Saranay VST",
             "image": "/images/project_images/Saranay_VST_Demo.gif",
@@ -271,6 +233,15 @@
             "video": "video"
         },
         {
+            "name": "Waver Synth",
+            "image": "/images/project_images/Waver_Synth.gif",
+            "type": "web audio app",
+            "description": "A Web Wavetable Synthesizer.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/waver-synth",
+            "link": "https://waversynth.netlify.app/"
+        },
+        {
             "name": "Learn Filipino Rondalla",
             "image": "/images/project_images/Learn_Rondalla.png",
             "type": "web app",
@@ -278,7 +249,34 @@
             "itchio": "",
             "github": "https://github.com/Fihra/Learn-Rondalla",
             "link": "https://learnfilipinorondalla.netlify.app/"
-        }       
+        }, 
+        {
+            "name": "Polar Patterns",
+            "image": "/images/project_images/polar-patterns-app.gif",
+            "type": "web app",
+            "description": "A web app to show the different polar patterns for microphone recording.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/polar-patterns",
+            "link": "https://polar-patterns.netlify.app/"
+        },
+        {
+            "name": "Ergo Argot",
+            "image": "/images/project_images/ergo-argot-demo.gif",
+            "type": "web app",
+            "description": "A small mobile app. Search for a word, phrase, acronym from internet slang and receive the first definition result of it based on the Urban Dictionary API.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/ergo-argot",
+            "link": "https://ergo-argot.netlify.app/"
+        },
+        {
+            "name": "Music Leftovers",
+            "image": "/images/project_images/Music_leftovers.png",
+            "type": "web app",
+            "description": "A mock E-Commerce shop of used music gear.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/music-shop-ecommerce",
+            "link": ""
+        }
     ],
     "music": [
         {
