@@ -13,11 +13,92 @@
     ],
     "skills": [
         {
-            "languages": ["Javascript", "C#", "HTML", "CSS", "Python"],
-            "Frameworks": ["React", "Unity", "Unreal Engine", "Godot", "Pure Data", "Kontakt KSP", "Django" ]
+            "languages": [
+                {
+                    "name": "Javascript",
+                    "logo": "/images/tech_logos/javascript-logo.png"
+                },
+                {
+                    "name": "C#",
+                    "logo": "/images/tech_logos/c-sharp-logo.png"
+                },
+                {
+                    "name": "HTML",
+                    "logo": "/images/tech_logos/html-logo.png"
+                },
+                {
+                    "name": "CSS",
+                    "logo": "/images/tech_logos/css-logo.png"
+                },
+                {
+                    "name": "Pure Data",
+                    "logo": "/images/tech_logos/puredata-logo.png"
+                },
+                {
+                    "name": "Python",
+                    "logo": "/images/tech_logos/python-logo.png"
+                }
+            
+            ],
+            "frameworks": [
+                {
+                    "name": "React",
+                    "logo": "/images/tech_logos/react-logo.png"
+                },
+                {
+                    "name": "Unity",
+                    "logo": "/images/tech_logos/unity-logo.png"
+                },
+                {
+                    "name": "Unreal Engine",
+                    "logo": "/images/tech_logos/unreal-engine-logo.png"
+                },
+                {
+                    "name": "Godot",
+                    "logo": "/images/tech_logos/godot-logo.png"
+                },
+                {
+                    "name": "Kontakt KSP",
+                    "logo": "/images/tech_logos/kontakt-ksp-logo.png"
+                },
+                {
+                    "name": "Django",
+                    "logo": "/images/tech_logos/django-logo.png"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Wwise",
+                    "logo": "/images/tech_logos/wwise-logo.png"
+                },
+                {
+                    "name": "FMOD",
+                    "logo": "/images/tech_logos/fmod-logo.png"
+                },
+                {
+                    "name": "Reaper",
+                    "logo": "/images/tech_logos/reaper-logo.png"
+                },
+                {
+                    "name": "MuseScore",
+                    "logo": "/images/tech_logos/musescore-logo.png"
+                },
+                {
+                    "name": "NodeJS",
+                    "logo": "/images/tech_logos/node-js-logo.png"
+                },
+                {
+                    "name": "Piskel Art",
+                    "logo": "/images/tech_logos/piskel-logo.png"
+                },
+                {
+                    "name": "Paint.NET",
+                    "logo": "/images/tech_logos/paintdotnet-logo.png"
+                }
+            ]
         }
     ],
-    "resume": [
+    "experience": [
         {
         "company": "Servco Pacific Inc.",
         "role": "Software Developer",
@@ -55,19 +136,19 @@
     ],
     "education": [
         {
-            "school": "School of Video Game Audio",
+            "school_name": "School of Video Game Audio",
             "location": false,
             "endDate": "Current",
             "focus": "Pure Data, Sound Design"
         },
         {
-            "school": "Flatiron School",
+            "school_name": "Flatiron School",
             "location": "Seattle, WA",
             "endDate": "2019",
             "focus": "15-week intensive coding bootcamp in Software Engineering"
         },
         {
-            "school": "University of Hawai'i of Mānoa",
+            "school_name": "University of Hawai'i of Mānoa",
             "location": "Honolulu, HI",
             "endDate": "2016",
             "focus": "B.A. in Music & Anthropology"
@@ -214,11 +295,11 @@
             "role": "Solo Developer",
             "image": "/images/game_images/FMOD_Audio_Integration_Demo.jpg",
             "type": "Demo",
-            "description": "",
+            "description": "A Unity demo that utilizes FMOD music layering integration and sound effects.",
             "itchio": "",
-            "github": "github.com",
+            "github": "https://github.com/Fihra/FMOD-Audio_Integration_Demo",
             "ost": "",
-            "video": "video"
+            "video": "https://www.youtube.com/watch?v=cNpKzpzEpts"
         }
     ],
     "projects": [
