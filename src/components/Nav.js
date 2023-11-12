@@ -21,7 +21,7 @@ const Nav = () => {
     }
 
     return (
-        <div className="nav-container">
+        <nav className="nav-container">
             {/* <NavNode/>
             <NodeLine/>
             <NavNode/>
@@ -34,7 +34,7 @@ const Nav = () => {
             <NodeLine/>
             <NavNode/> */}
             {showNodes()}
-        </div>
+        </nav>
     );
 }
 
