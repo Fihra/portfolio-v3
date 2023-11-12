@@ -35,8 +35,6 @@ const Nav = () => {
     const handleClose = (e) => {
         const { node } = e.currentTarget.dataset;
 
-        //console.log(node);
-
         setIsOpen(false);
         setAnchorEl(null);
 

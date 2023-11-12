@@ -4,7 +4,6 @@ import data from '../data.json';
 const Header = () => {
   const { header_roles } = data;
 
-
   const showRoles = () => {
     return header_roles.map((role, i) => {
       if(i < header_roles.length -1){
@@ -16,7 +15,6 @@ const Header = () => {
           <h2>{role}</h2>
         ) 
       }
-      
     })
   }
 

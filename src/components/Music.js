@@ -4,7 +4,7 @@ import { FaSpotify } from 'react-icons/fa';
 import data from '../data.json';
 
 const Music = () => {
-    const { bandcamp, spotify, link } = data.music[0];
+    const { bandcamp, spotify } = data.music[0];
     useEffect(() => {
         let contentContainer = document.getElementById("content-container");
         contentContainer.classList.add("show-content-border");

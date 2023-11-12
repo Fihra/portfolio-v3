@@ -20,7 +20,7 @@ const customStyle = {
 const GameCard = (props) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [hover, setHover] = useState(false);
-    const { name, role, type, description, github, image, itchio, ost, video } = props.game;
+    const { name, role, description, github, image, itchio, ost } = props.game;
 
     const onHover = () => {
         setHover(true);

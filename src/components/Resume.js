@@ -38,7 +38,6 @@ const Resume = () => {
             <fieldset>
                 <legend>Resume</legend>
                 <h3>Experience</h3>
-                {/* <p>Servco Pacific Inc.</p> */}
                 {outputData()}
             </fieldset>
             
