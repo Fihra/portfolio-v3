@@ -13,7 +13,9 @@ const App = () => {
       <MainProvider>
       <Nav/>
       <MobileNav/>
+      <main className="main-content">
       <Content/>
+      </main>
       </MainProvider>
     </div>
   );
