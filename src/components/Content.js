@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import About from './About';
-import Resume from './Resume';
+import Experience from './Experience';
 import Contact from './Contact';
 import Games from './Games';
 import Projects from './Projects';
@@ -15,8 +15,8 @@ const Content = () => {
         switch(currentNode.toLowerCase()){
             case "about":
                 return <About/>
-            case "resume":
-                return <Resume/>
+            case "experience":
+                return <Experience/>
             case "contact":
                 return <Contact/>
             case "games":
