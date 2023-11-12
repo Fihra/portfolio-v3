@@ -12,7 +12,8 @@ const customStyle = {
         textAlign: 'center',
         overflow: 'hidden',
         margin: '0 auto',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        marginTop: '10%'
     }
 }
 
@@ -45,9 +46,10 @@ const ProjectCard = (props) => {
                 style={customStyle}
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
+                className="main-modal"
             >
                 <h2>{name}</h2>
-                <img src={image} width={470} height={250}/>
+                <img src={image} width={400} height={250}/>
                 <h4>Type: {type}</h4>
                 <p>{description}</p>
                 <div className="icons-container">

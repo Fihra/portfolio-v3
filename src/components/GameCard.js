@@ -12,45 +12,15 @@ const customStyle = {
         textAlign: 'center',
         overflow: 'hidden',
         margin: '0 auto',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)'
-    },
-    mobileView :{
-        zIndex: '3',
-        width: 100,
-        height: 200,
-        textAlign: 'center',
-        overflow: 'hidden',
-        margin: '0 auto',
-        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        marginTop: "10%"
     }
-}
-
-const currentWindowSize = {
-    width: '',
-    height: ''
 }
 
 const GameCard = (props) => {
-    const [windowSize, setWindowSize] = useState(currentWindowSize);
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [hover, setHover] = useState(false);
     const { name, role, type, description, github, image, itchio, ost, video } = props.game;
-
-    const handleResize = () => {
-        setWindowSize({
-            ...currentWindowSize,
-            width: window.innerWidth,
-            height: window.innerHeight
-        })
-    }
-
-    useEffect(() => {
-        handleResize();
-    }, [])
-
-    window.addEventListener("resize", handleResize);
-
-    console.log(windowSize);
 
     const onHover = () => {
         setHover(true);
@@ -73,13 +43,13 @@ const GameCard = (props) => {
     return(
         <div className="game-card">
             <Modal
-                style={windowSize.width < 500 ? customStyle.mobileView : customStyle.content}
+                style={customStyle.content}
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
-                className="mobile-modal"
+                className="main-modal"
             >
                 <h2>{name}</h2>
-                <img src={image} width={470} height={250}/>
+                <img src={image} width={400} height={250}/>
                 <h4>Role: {role}</h4>
                 <p>{description}</p>
                 <div className="icons-container">
@@ -91,7 +61,6 @@ const GameCard = (props) => {
                 </div>
             </Modal>
             <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver}/>
-            {/* {hover && <div className="game-info"><p>{name}</p></div>} */}
             <div className="game-info">
                 <p>{name}</p>
             </div>
