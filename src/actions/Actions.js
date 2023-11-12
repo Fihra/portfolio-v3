@@ -1,6 +1,5 @@
 const ACTIONS = {
     SET_CURRENT_NODE: "SET_CURRENT_NODE",
-    GET_DATA: "GET_DATA"
 }
 
 export default ACTIONS;
