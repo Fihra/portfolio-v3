@@ -48,6 +48,7 @@ const GameCard = (props) => {
                 onRequestClose={closeModal}
                 className="main-modal"
             >
+                <section className="card-content">
                 <h2>{name}</h2>
                 <img src={image} width={400} height={250} alt={`${name} cover in modal`}/>
                 <h4>Role: {role}</h4>
@@ -59,6 +60,7 @@ const GameCard = (props) => {
                         {(ost !== "") && <li><a href={ost}><FaMusic size={iconSize} color={"white"}/></a></li>}                    
                     </ul>
                 </div>
+                </section>
             </Modal>
             <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver} alt={`${name} cover`}/>
             {hover && <div className="game-info"><p>{name}</p></div>}

@@ -48,6 +48,7 @@ const ProjectCard = (props) => {
                 onRequestClose={closeModal}
                 className="main-modal"
             >
+                <section className="card-content">
                 <h2>{name}</h2>
                 <img src={image} width={400} height={250}/>
                 <h4>Type: {type}</h4>
@@ -59,6 +60,7 @@ const ProjectCard = (props) => {
                         {(link !== "") && <li><a href={link}><CgWebsite size={iconSize} color={"white"}/></a></li>}                    
                     </ul>
                 </div>
+                </section>
             </Modal>
             <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver}/>
             {hover && <div className="project-info"><p>{name}</p></div>}
