@@ -50,7 +50,7 @@ const ProjectCard = (props) => {
             >
                 <section className="card-content">
                 <h2>{name}</h2>
-                <img src={image} width={400} height={250}/>
+                <img src={image} width={400} height={250} alt={`${name} cover`}/>
                 <h4>Type: {type}</h4>
                 <p>{description}</p>
                 <div className="icons-container">
@@ -62,7 +62,7 @@ const ProjectCard = (props) => {
                 </div>
                 </section>
             </Modal>
-            <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver}/>
+            <img src={image} width={180} height={180} onClick={openModal} onMouseEnter={onHover} onMouseLeave={onHoverOver} alt={`${name} cover in modal`}/>
             {hover && <div className="project-info"><p>{name}</p></div>}
         </div>
     )
