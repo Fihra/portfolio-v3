@@ -14,6 +14,7 @@
 .App {
   text-align: center;
   position: relative;
+  margin-top: 24px;
 }
 
 html {
@@ -26,6 +27,7 @@ body {
   background-image: linear-gradient(0deg, var(--dark) 0%, var(--main-green) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;font-family: var(--main-font);
+  background-size: cover;
 }
 
 button {
@@ -42,6 +44,19 @@ h1, h2, h3, h4, p, b, li {
 
 .header-container h1 {
   margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5.5s steps(100, end);
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 .header-container h1, .header-container h2:not(span) {
@@ -50,6 +65,37 @@ h1, h2, h3, h4, p, b, li {
 
 .header-roles-container, .header-roles-container span {
   display: inline-flex;
+}
+
+.header-roles-container h2 {
+  opacity: 0;
+}
+
+.header-roles-container h2:nth-child(1){
+  animation-name: fadeInAnimation;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.header-roles-container h2:nth-child(3){
+  animation-name: fadeInAnimation;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+.header-roles-container h2:nth-child(5){
+  animation-name: fadeInAnimation;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.header-roles-container span {
+  animation-name: fadeInAnimation;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
 }
 
 .header-dot {
@@ -61,6 +107,15 @@ h1, h2, h3, h4, p, b, li {
   padding: 12px;
   text-shadow: none;
   color: var(--white);
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .nav-container {
@@ -271,9 +326,6 @@ fieldset legend {
   position: absolute;
   color: rgb(21, 71, 58);
   z-index: 2;
-  /* animation: letter-no-rotate 4s linear infinite;
-  animation-fill-mode: forwards; */
-
 }
 
 .job-section h3, .school-section h3, .volunteer-section h3{
@@ -292,7 +344,11 @@ fieldset legend {
 #contact-form input {
   width: 350px;
   height: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact-form textarea, #contact-form button {
+  margin-top: 20px;
 }
 
 #contact-form button {
@@ -342,8 +398,7 @@ input::placeholder {
 .skill-info {
   position: absolute;
   top: 25%;
-  left: 25%;
-  /* text-align: center; */
+  left: 50%;
   opacity: 0;
   transition: 0.5s ease;
 }
@@ -388,6 +443,10 @@ input::placeholder {
   margin: 0 auto;
 }
 
+.card-content h4, .card-content p {
+  padding: 12px;
+}
+
 .icons-container {
   display: flex;
 }
@@ -407,8 +466,13 @@ input::placeholder {
 
 /*Media Queries*/
 @media (max-width: 500px) {
+  .main-content {
+    padding-top: 24px;
+  }
+
   .content-container, #content-container {
     margin: 0 auto;
+    padding: 24px;
   }
   
   fieldset {
@@ -417,6 +481,7 @@ input::placeholder {
 
   .about-section img {
     height: 390px;
+    padding: 24px;
   }
   
   .about-text {
@@ -427,12 +492,14 @@ input::placeholder {
     flex-direction: initial;
   }
 
-  #contact-form input {
+  #contact-form input, #contact-form textarea {
     width: 300px;
+    margin-top: 20px;
   }
 
-  #contact-form textarea {
-    width: 300px;
+  #contact-form button {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .content-container {
@@ -487,6 +554,11 @@ input::placeholder {
   width: 300px !important;
 }
 
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: var(--light-green) !important;
+  color: var(--charcoal) !important;
+}
+
 .MuiMenu-root ul li{
   color: var(--light-green);
   background-color: var(--charcoal);
@@ -501,5 +573,5 @@ input::placeholder {
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 10%;
-  color: blue;
+  text-align: center;
 }
