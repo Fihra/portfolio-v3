@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import * as emailjs from 'emailjs-com';
 import data from '../data.json';
+import ThankYouMessageForm from './ThankYouMessageForm';
 
 const Contact = () => {
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
     const initialFormState = {
         name: "",
         email: "",
@@ -36,7 +39,15 @@ const Contact = () => {
                 console.log(error.text);
             },
         );
+        setFormSubmitted(true);
+        showThankYou();
+        clearTimeout();
+        
         setContactData({...initialFormState});
+    }
+    
+    const showThankYou = () => {
+        setTimeout(() => setFormSubmitted(false), 2000);
     }
 
     useEffect(() => {
@@ -49,6 +60,7 @@ const Contact = () => {
             <fieldset>
                 <legend>Contact</legend>
                 <p>{description}</p>
+                {formSubmitted ? <ThankYouMessageForm/> :
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <input type="text" onChange={handleFormChange} name="name" placeholder="Your name" value={contactData.name} required></input>
                     <input type="email" onChange={handleFormChange} name="email" placeholder="youremail@email.com" value={contactData.email} required></input>
@@ -57,6 +69,7 @@ const Contact = () => {
                     </textarea>
                     <button type="submit" value="Submit">Submit</button>
                 </form>
+                }
             </fieldset>
         </div>
     );
