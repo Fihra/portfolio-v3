@@ -19,15 +19,16 @@
 
 html {
   height: 100%;
+  background-image: linear-gradient(0deg, var(--dark) 0%, var(--main-green) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
   height: 100%;
   margin: 0;
-  background-image: linear-gradient(0deg, var(--dark) 0%, var(--main-green) 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;font-family: var(--main-font);
-  background-size: cover;
+  font-family: var(--main-font);
 }
 
 button {
