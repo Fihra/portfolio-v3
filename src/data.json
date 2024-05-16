@@ -8,7 +8,7 @@
     ],
     "solo_headshot": [
         {
-            "pic": "/images/solo_headshot_nov_2021.jpg"
+            "pic": "/images/Fabian_Headshot.png"
         }
     ],
     "skills": [
@@ -169,6 +169,17 @@
         }
     ],
     "games": [
+        {
+            "name": "Boba Blunder",
+            "role": "Composer, Sound Designer, Programmer",
+            "image": "/images/game_images/Boba_Blunder.png",
+            "type": "2D Platformer",
+            "description": "A project for 2024 Global Game Jam. Help this boba ball get back to its home!",
+            "itchio": "https://porkycatstudio.itch.io/boba-blunder",
+            "github": "",
+            "ost": "",
+            "video": ""
+        },
         {
             "name": "Ningning na Diyosa",
             "role": "Solo Developer",
@@ -339,6 +350,15 @@
             "itchio": "",
             "github": "https://github.com/Fihra/polar-patterns",
             "link": "https://polar-patterns.netlify.app/"
+        },
+        {
+            "name": "DDR Tempo",
+            "image": "/images/project_images/ddr-tempo-demo.gif",
+            "type": "web & android app",
+            "description": "An app that let's DDR players, or other rhythm gamers, modify the BPM, to calculate by the designated speed modifier. It also previews a visual representation of the note speed.",
+            "itchio": "",
+            "github": "https://github.com/Fihra/ddr-tempo-ver2",
+            "link": "https://ddr-tempo.vercel.app/"
         },
         {
             "name": "Ergo Argot",

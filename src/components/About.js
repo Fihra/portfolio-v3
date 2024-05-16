@@ -67,7 +67,7 @@ const About = () => {
             <fieldset>
                 <legend>About</legend>
                 <div className="about-section">
-                    <img src={solo_headshot[0].pic} width={150} height={300} alt="solo-headshot"/>
+                    <img src={solo_headshot[0].pic} width={180} height={300} alt="solo-headshot"/>
                     <div className="about-text">
                         {outputData()}
                     </div>
