@@ -1,6 +1,6 @@
 {
     "about": [
-        "Hi! I'm Fabian. I'm a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and design sfx, to building web & software apps.",
+        "Hi! I'm Fabian, a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and designing sfx, to building web & software apps.",
         "I'm passionate about combining my passions of audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
     ],
     "header_roles": [
@@ -138,7 +138,7 @@
         {
             "school_name": "School of Video Game Audio",
             "location": false,
-            "endDate": "Current",
+            "endDate": "2023",
             "focus": "Pure Data, Sound Design"
         },
         {
@@ -151,7 +151,7 @@
             "school_name": "University of Hawai'i of Mānoa",
             "location": "Honolulu, HI",
             "endDate": "2016",
-            "focus": "B.A. in Music & Anthropology"
+            "focus": "Bachelor of Arts Degree in Music & Anthropology"
         }
     ],
     "volunteer": [
@@ -192,17 +192,6 @@
             "video": ""
         },
         {
-            "name": "The Great Bleaching",
-            "role": "Audio Implementer",
-            "image": "/images/game_images/The_Great_Bleaching.png",
-            "type": "3D Adventure",
-            "description": "You are Liko the Louse. Prophecy foretells of 'The Great Bleaching', a cataclysmic event that occurs when the roots of the hair are a different color, as tall as a louse house. Embark on an epic quest to save your village from uncertain doom.",
-            "itchio": "https://andyman404.itch.io/bleaching",
-            "github": "https://github.com/andyman/TheGreatBleaching",
-            "ost": "",
-            "video": ""
-        },
-        {
             "name": "Maliksi",
             "role": "Solo Developer",
             "image": "/images/game_images/Maliksi.png",
@@ -225,6 +214,17 @@
             "video": ""
         },
         {
+            "name": "The Great Bleaching",
+            "role": "Audio Implementer",
+            "image": "/images/game_images/The_Great_Bleaching.png",
+            "type": "3D Adventure",
+            "description": "You are Liko the Louse. Prophecy foretells of 'The Great Bleaching', a cataclysmic event that occurs when the roots of the hair are a different color, as tall as a louse house. Embark on an epic quest to save your village from uncertain doom.",
+            "itchio": "https://andyman404.itch.io/bleaching",
+            "github": "https://github.com/andyman/TheGreatBleaching",
+            "ost": "",
+            "video": ""
+        },
+        {
             "name": "Ritsu & Mochi",
             "role": "Technical Sound Designer",
             "image": "/images/game_images/ritsu_mochi.png",
@@ -234,6 +234,17 @@
             "github": "https://github.com/zsd4yr/mochi",
             "ost": "",
             "video": ""
+        },
+        {
+            "name": "Auto Battle Text Adventure",
+            "role": "Solo Developer, Composer & Audio Designer",
+            "image": "/images/game_images/Auto_Battle_Text_Adventure.png",
+            "type": "RPG Text Adventure",
+            "description": "Create your own adventurer on a quest to defeat the chaotic wizard.",
+            "itchio": "https://firahfabe.itch.io/auto-battle-text-adventure",
+            "github": "https://github.com/Fihra/TextBattleAdventure",
+            "ost": "https://firahfabe.bandcamp.com/album/auto-battle-text-adventure-game-soundtrack",
+            "video": "https://www.youtube.com/watch?v=SkJWS2679u8" 
         },
         {
             "name": "Night of the Lesbian Vampires",
