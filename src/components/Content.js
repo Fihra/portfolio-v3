@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import StartClick from './StartClick';
 import About from './About';
 import Experience from './Experience';
 import Contact from './Contact';
@@ -26,7 +27,7 @@ const Content = () => {
             case "music":
                 return <Music/>
             default:
-                break;
+                return <StartClick/>
         }
     }
     
