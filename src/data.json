@@ -1,7 +1,7 @@
 {
     "about": [
         "Hi! I'm Fabian, a software developer, technical sound designer, composer, and recording musician. From integrating music & audio into games, composing music and designing sfx, to building web & software apps.",
-        "I'm passionate about combining my passions of audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
+        "I'm passionate about combining my interests in audio & technology. I have developed solo small games, and collaborated in game jams as a technical sound designer, audio implementer, & composer."
     ],
     "header_roles": [
         "Software Developer", "Technical Audio Designer", "Composer"
@@ -105,10 +105,12 @@
         "startDate": "March 2022",
         "endDate": "Present",
         "responsibilities": [
-                "Update & maintain multiple sites in the front end with Javascript, ISML & CSS in responsive design",
+                "Maintain multiple brand sites with Javascript, JQuery, HTML/ISML & CSS for responsive design",
                 "Build custom components for Salesforce Commerce Cloud Page Designer in Javascript",
                 "Write technical documentation for non-developers on custom components for Page Designer",
-                "Work in Agile 2-week sprint, using Jira for task management, & Azure DevOps for version control"
+                "Collaborate with UX designers and Product Owners to build enhancement features within 2-week Agile sprints",
+                "Build front-end UI for an internal Google Chrome extension app that displays customer membership information",
+                "Implement React components for Servco Buying Center Payment Portal on-demand check in Next.js & PostgresSQL"
             ]
         },
         {
