@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import data from "../data.json";
 
 const Experience = () => {
-    const { experience, education, volunteer } = data;
+    const { experience, education, volunteer, presentations } = data;
 
     useEffect(() => {
         let contentContainer = document.getElementById("content-container");
@@ -64,6 +64,22 @@ const Experience = () => {
         )
     }
 
+    const outputPresentations = () => {
+        return presentations.map((presentation, i) => {
+            return presentationSection(presentation, i);
+        })
+    }
+
+    const presentationSection = (presentation, i) => {
+        return(
+            <div className="presentation-section" key={i}>
+                <h3>{presentation.name} - {presentation.endDate}</h3>
+                <h4>{presentation.location} - {presentation.event}</h4>
+                <p>{presentation.description}</p>
+            </div>
+        )
+    }
+
     return (
         <div id="content-container" className="experience-container">
             <fieldset>
@@ -74,6 +90,8 @@ const Experience = () => {
                 {outputSchools()}
                 <h2>| Volunteer |</h2>
                 {outputVolunteers()}
+                <h2>| Presentations |</h2>
+                {outputPresentations()}
             </fieldset>
             
         </div>

@@ -364,7 +364,7 @@ fieldset legend {
   z-index: 2;
 }
 
-.job-section h3, .school-section h3, .volunteer-section h3{
+.job-section h3, .school-section h3, .volunteer-section h3, .presentation-section h3{
   text-decoration: underline;
   text-shadow: 2px 2px 2px var(--dark);
   color: var(--light-brown);
