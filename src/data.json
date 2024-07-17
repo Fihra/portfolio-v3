@@ -64,6 +64,10 @@
                 {
                     "name": "Django",
                     "logo": "/images/tech_logos/django-logo.png"
+                },
+                {
+                    "name": "RPG Maker MV",
+                    "logo": "/images/tech_logos/rpgmaker-mv.png"
                 }
             ],
             "tools": [
@@ -100,20 +104,6 @@
     ],
     "experience": [
         {
-        "company": "Servco Pacific Inc.",
-        "role": "Software Developer",
-        "startDate": "March 2022",
-        "endDate": "Present",
-        "responsibilities": [
-                "Maintain multiple brand sites with Javascript, JQuery, HTML/ISML & CSS for responsive design",
-                "Build custom components for Salesforce Commerce Cloud Page Designer in Javascript",
-                "Write technical documentation for non-developers on custom components for Page Designer",
-                "Collaborate with UX designers and Product Owners to build enhancement features within 2-week Agile sprints",
-                "Build front-end UI for an internal Google Chrome extension app that displays customer membership information",
-                "Implement React components for Servco Buying Center Payment Portal on-demand check in Next.js & PostgresSQL"
-            ]
-        },
-        {
             "company": "Freelance",
             "role": "Software Developer & Technical Sound Designer",
             "startDate": "August 2019",
@@ -133,8 +123,21 @@
                 "Arrange & record live instruments for collaborative albums by video game community, GameGrooves",
                 "Compose music & design SFX for games"
             ]
+        },
+        {
+        "company": "Servco Pacific Inc.",
+        "role": "Software Developer",
+        "startDate": "March 2022",
+        "endDate": "June 2024",
+        "responsibilities": [
+                "Maintained multiple brand sites with Javascript, JQuery, HTML/ISML & CSS for responsive design",
+                "Built custom components for Salesforce Commerce Cloud Page Designer in Javascript",
+                "Wrote technical documentation for non-developers on custom components for Page Designer",
+                "Collaborated with UX designers and Product Owners to build enhancement features within 2-week Agile sprints",
+                "Built front-end UI for an internal Google Chrome extension app that displays customer membership information",
+                "Implemented React components for Servco Buying Center Payment Portal on-demand check in Next.js & PostgresSQL"
+            ]
         }
-
     ],
     "education": [
         {
@@ -163,6 +166,15 @@
             "event": "Javascript Conference",
             "endDate": "February 2020",
             "description": "Helped manage & cater for 100+ attendees"
+        }
+    ],
+    "presentations": [
+        {
+            "name": "Getting Started in Game Audio for Game Development",
+            "location": "Honolulu, HI",
+            "event": "Comic Con Honolulu",
+            "endDate": "August 2023",
+            "description": "Discussed about game audio topics, such as essential tools and resources for composers and sound designers to get started."
         }
     ],
     "contact": [
