@@ -184,6 +184,17 @@
     ],
     "games": [
         {
+            "name": "The Mysterious Gate",
+            "role": "Solo Developer",
+            "image": "/images/game_images/The_Mysterious_Gate.png",
+            "type": "RPG",
+            "description": "An RPG of a gate that appeared in the middle of a small town. What lurks in it?",
+            "itchio": "https://firahfabe.itch.io/the-mysterious-gate",
+            "github": "",
+            "ost": "https://firahfabe.bandcamp.com/album/the-mysterious-gate-game-soundtrack",
+            "video": ""
+        },
+        {
             "name": "Boba Blunder",
             "role": "Composer, Sound Designer, Programmer",
             "image": "/images/game_images/Boba_Blunder.png",
