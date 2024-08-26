@@ -141,6 +141,12 @@
     ],
     "education": [
         {
+            "school_name": "Indie Game Academy",
+            "location": false,
+            "endDate": "2024",
+            "focus": "Certificate IGA Level 1: Intro to Game Dev"
+        },
+        {
             "school_name": "School of Video Game Audio",
             "location": false,
             "endDate": "2023",
@@ -183,6 +189,28 @@
         }
     ],
     "games": [
+        {
+            "name": "Lucid Flow",
+            "role": "Solo Developer",
+            "image": "/images/game_images/Lucid_Flow.png",
+            "type": "Rhythm",
+            "description": "A rhythm game to time your hits to your incoming reflections in the dreamscape.",
+            "itchio": "https://firahfabe.itch.io/lucid-flow",
+            "github": "https://github.com/Fihra/IGU_GameJam_2024-Reflections",
+            "ost": "https://firahfabe.bandcamp.com/album/lucid-flow",
+            "video": "https://www.youtube.com/watch?v=YFjePDd1KnQ&t=3s"
+        },
+        {
+            "name": "Swift as Light",
+            "role": "Solo Developer",
+            "image": "/images/game_images/Swift_as_Light.png",
+            "type": "2D Platformer",
+            "description": "A vertical slice Unity game built for Indie Game Academy Level 1. Speed through this stage as swiftly as possible.",
+            "itchio": "https://firahfabe.itch.io/swift-as-light",
+            "github": "https://github.com/Fihra/Swift_as_Light",
+            "ost": "https://firahfabe.bandcamp.com/album/swift-as-light-game-soundtrack",
+            "video": "https://www.youtube.com/watch?v=HCXAbrIQeIY"
+        },
         {
             "name": "The Mysterious Gate",
             "role": "Solo Developer",
