@@ -46,6 +46,10 @@
                     "logo": "/images/tech_logos/react-logo.png"
                 },
                 {
+                    "name": "NextJS",
+                    "logo": "/images/tech_logos/nextjs-logo.png"
+                },
+                {
                     "name": "Unity",
                     "logo": "/images/tech_logos/unity-logo.png"
                 },
@@ -141,10 +145,16 @@
     ],
     "education": [
         {
+            "school_name": "Gray Area",
+            "location": "San Francisco, CA (Remote)",
+            "endDate": "Present",
+            "focus": "Unity for Artists Workshop"
+        },
+        {
             "school_name": "Indie Game Academy",
             "location": false,
-            "endDate": "2024",
-            "focus": "Certificate IGA Level 1: Intro to Game Dev"
+            "endDate": "2025",
+            "focus": "Certificate IGA Level 1 & 2: Unity Game Development"
         },
         {
             "school_name": "School of Video Game Audio",
@@ -166,6 +176,13 @@
         }
     ],
     "volunteer": [
+        {
+            "name": "MAGFest 2025",
+            "location": "National Harbor, MD",
+            "event": "Music & Gaming Festival",
+            "endDate": "January 2025",
+            "description": "Worked stage hands & crowd control for concerts with over 50+ attendees, also monitored jam spaces for musicians"
+        },
         {
             "name": "JSConfHI",
             "location": "Honolulu, HI",
@@ -189,6 +206,17 @@
         }
     ],
     "games": [
+        {
+            "name": "Frog Beat Curse",
+            "role": "Composer, Sound Designer",
+            "image": "/images/game_images/frog_beat_curse.png",
+            "type": "Rhythm Platformer",
+            "description": "A Celeste-like Rhythm Platformer where you play as a frog to traverse the Witch's rhythm beat castle to save the princess.",
+            "itchio": "https://pixelipy.itch.io/frog-beat-curse",
+            "github": "",
+            "ost": "https://firahfabe.bandcamp.com/album/frog-beat-curse-game-soundtrack",
+            "video": ""
+        },
         {
             "name": "Lucid Flow",
             "role": "Solo Developer",
@@ -388,6 +416,36 @@
             "link": "https://firahfabe.itch.io/saranay-vst",
             "video": "video"
         },
+                {
+            "name": "Oia Cat VST",
+            "image": "/images/project_images/Oia_Cat_VST.png",
+            "type": "vst plugin",
+            "description": "Kontakt VST instrument of the OIIAOIIA Cat",
+            "itchio": "",
+            "github": "",
+            "link": "https://firahfabe.itch.io/oiiaoiia-cat-vst",
+            "video": "video"
+        },
+        {
+            "name": "Music Training Sheets (WIP)",
+            "image": "/images/project_images/music_training_sheet_wip.gif",
+            "type": "web audio app",
+            "description": "Fullstack NextJS app to generate melodic lines on sheet music and playback sound for aural training",
+            "itchio": "",
+            "github": "https://github.com/Fihra/music-training-sheet",
+            "link": "",
+            "video": "video"
+        },
+        {
+            "name": "Feel the Beat Critter",
+            "image": "/images/project_images/feel_the_beat_critter_demo.gif",
+            "type": "web audio app",
+            "description": "Music Player of a Soundcloud-like visualizer and a critter that reacts to the beat",
+            "itchio": "",
+            "github": "https://github.com/Fihra/feel-the-beat-critter",
+            "link": "https://fihra.github.io/feel-the-beat-critter/",
+            "video": "video"
+        },
         {
             "name": "Waver Synth",
             "image": "/images/project_images/Waver_Synth.gif",
@@ -447,7 +505,7 @@
         {
             "bandcamp": "https://firahfabe.bandcamp.com/",
             "spotify": "https://open.spotify.com/artist/5MwSQ5vfamJ2RZSeP12ql5?si=Z7ptJQWJQ9K09exaSbdHQw",
-            "link": ""
+            "website": "https://firahfabe.com/"
         }
     ]
 }
